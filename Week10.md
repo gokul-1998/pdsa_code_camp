@@ -1,5 +1,37 @@
 ## Week 10 
 
+  - In order to do PPA1, we have to understand Boyer-Moore algorithm.
+  - ## Boyer-Moore Algorithm
+    ![](2022-12-13-13-12-32.png)
+    - ## implementation
+
+      ```
+      def boyermoore(t,p):
+          last = {} # Preprocess
+          for i in range(len(p)):
+              last[p[i]] = i
+          poslist=[]
+          i = 0
+          while i <= (len(t)-len(p)):
+              matched,j = True,len(p)-1
+              while j >= 0 and matched:
+                  if t[i+j] != p[j]:
+                      matched = False
+                  j = j - 1
+              if matched:
+                  poslist.append(i)
+                  i = i + 1
+              else:
+                  j = j + 1
+                  if t[i+j] in last.keys():
+                      i = i + max(j-last[t[i+j]],1)
+                  else:
+                      i = i + j + 1
+          return(poslist)
+      print(boyermoore('abcaaacabc','abc'))
+      ```
+
+
 - ### PPA1
 ![](2022-12-13-12-39-05.png)
 
