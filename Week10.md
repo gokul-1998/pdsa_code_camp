@@ -30,6 +30,7 @@
           return(poslist)
       print(boyermoore('abcaaacabc','abc'))
       ```
+      ![](2022-12-13-13-18-15.png)
 
 
 - ### PPA1
