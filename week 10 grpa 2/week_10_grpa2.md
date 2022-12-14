@@ -2,6 +2,7 @@
 
 ![](2022-12-14-16-32-45.png)
 
+- Solution 
 ```
 def FindPattern(T,P):
     last = {} # Preprocess
