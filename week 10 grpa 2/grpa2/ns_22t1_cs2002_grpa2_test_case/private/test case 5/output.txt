@@ -1,0 +1,1 @@
+[(4, 'baabcbacac'), (9, 'bacacbaabb'), (24, 'aaccbbacba'), (27, 'cbbacbacba'), (30, 'acbacbacbb'), (38, 'bbcacbacbc')]

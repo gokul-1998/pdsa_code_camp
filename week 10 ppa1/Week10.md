@@ -3,6 +3,7 @@
   - In order to do PPA1, we have to understand Boyer-Moore algorithm.
   - ## Boyer-Moore Algorithm
     ![](2022-12-13-13-12-32.png)
+    ![](2022-12-14-09-00-03.png)
     - ## implementation
 
       ```

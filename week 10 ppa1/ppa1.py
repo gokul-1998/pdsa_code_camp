@@ -21,8 +21,8 @@ def BMCount(t,p):
       else:
         i = i + j + 1
   return poslist, count
-t = "straw plus berry is strawberry"
-p="strawberry" 
+t = input()
+p = input()
 list, c = BMCount(t, p)
 print(*list)
 print(c)

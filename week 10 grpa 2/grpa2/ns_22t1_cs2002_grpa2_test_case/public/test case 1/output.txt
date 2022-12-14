@@ -1,0 +1,1 @@
+[(0, 'abcab'), (3, 'abeds'), (9, 'ababc'), (11, 'abcji'), (18, 'abjht')]

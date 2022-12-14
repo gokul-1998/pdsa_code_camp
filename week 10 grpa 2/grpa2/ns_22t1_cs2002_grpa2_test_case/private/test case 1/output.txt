@@ -1,0 +1,1 @@
+[(0, 'abbab'), (2, 'babaa'), (5, 'aabaa'), (9, 'abbaa'), (13, 'abbaa')]

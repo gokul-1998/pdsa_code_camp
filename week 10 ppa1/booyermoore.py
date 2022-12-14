@@ -33,6 +33,7 @@ Steps to follow
             j=j-1
         if matched: ->[if the text matches  the pattern] append i to poslist and increment i=i+1
         else:increment j=j+1
-            if [check if the (i+j)th character is present in pattern dictionary ],we can skip completely by adding i=i+j+1, 
-            else
+            if [check if the (i+j)th character is present in pattern dictionary ],we can skip completely by adding i=i+max(j-last[t[i+j]],1) 
+            else increase i =i+j+1
+    4) return poslist
 """
